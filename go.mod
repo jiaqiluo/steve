@@ -7,7 +7,7 @@ replace (
 	github.com/knative/pkg => github.com/rancher/pkg v0.0.0-20190514055449-b30ab9de040e
 	github.com/matryer/moq => github.com/rancher/moq v0.0.0-20190404221404-ee5226d43009
 
-	k8s.io/client-go => github.com/rancher/client-go v1.24.0-rancher1
+	k8s.io/client-go => github.com/jiaqiluo/client-go v1.25.0-alpha3-test1-1
 )
 
 require (
@@ -29,12 +29,12 @@ require (
 	github.com/urfave/cli v1.22.2
 	github.com/urfave/cli/v2 v2.1.1
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	k8s.io/api v0.24.0
-	k8s.io/apiextensions-apiserver v0.24.0
-	k8s.io/apimachinery v0.24.0
-	k8s.io/apiserver v0.24.0
+	k8s.io/api v0.25.0-alpha.3
+	k8s.io/apiextensions-apiserver v0.25.0-alpha.3
+	k8s.io/apimachinery v0.25.0-alpha.3
+	k8s.io/apiserver v0.25.0-alpha.3
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kube-aggregator v0.24.0
-	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42
+	k8s.io/kube-aggregator v0.25.0-alpha.3
+	k8s.io/kube-openapi v0.0.0-20220627174259-011e075b9cb8
 )
